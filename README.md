@@ -28,7 +28,6 @@ project/
 - `call_api.py`：测试单条样本
 - `run_inference.py`：普通批量推理
 - `run_inference_sc.py`：self-consistency 推理
-- `run_inference_verify_retry.py`：带校验重试的推理
 - `evaluate.py`：评估预测结果
 
 ## 环境安装
