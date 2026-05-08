@@ -111,13 +111,7 @@ python scripts/run_inference.py --input data/mathvision/testmini/records.jsonl -
 python scripts/run_inference_sc.py --input data/mathvision/testmini/records.jsonl --output outputs/mathvision_sc_predictions.jsonl --num-samples 4
 ```
 
-### 5. 带校验重试的推理
-
-```bash
-python scripts/run_inference_verify_retry.py --input data/mathvision/testmini/records.jsonl --output outputs/mathvision_verify_retry_predictions.jsonl
-```
-
-### 6. 评估结果
+### 5. 评估结果
 
 规则评估：
 
